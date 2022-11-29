@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-import { ExploreCard, TitleText, TypingText } from "../components";
-import styles from "../styles";
-import { staggerContainer } from "../utils/motion";
-import { exploreWorlds } from "../constants";
+import { ExploreCard, TitleText, TypingText } from '../components';
+import styles from '../styles';
+import { staggerContainer } from '../utils/motion';
+import { exploreWorlds } from '../constants';
 
 const Explore = () => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState('world-2');
 
   return (
     <section className={`${styles.paddings}`} id="explore">

@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { TypingText } from "../components";
-import styles from "../styles";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { TypingText } from '../components';
+import styles from '../styles';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -23,17 +23,17 @@ const About = () => (
       />
 
       <motion.p
-        variants={fadeIn("up", "tween", 0.2, 1)}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[20px] font-normal sm:text-[28px] text-[20px] sm:text-center text-justify text-secondary-white"
       >
         <span className="font-extrabold text-white">Metaverse</span> is new
         thing in the future, where you can enjoy the vitual world by feeling
         like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{" "}
+        world, because this is really the{' '}
         <span className="font-extrabold text-white">
           madness of the metaverse
-        </span>{" "}
-        of today, using only{" "}
+        </span>{' '}
+        of today, using only{' '}
         <span className="font-extrabold text-white">VR</span> devices you can
         easily <span className="font-extrabold text-white">explore</span> the
         metaverse world you want, turn your dreams into reality. Let's explore
@@ -41,7 +41,7 @@ const About = () => (
       </motion.p>
 
       <motion.img
-        variants={fadeIn("up", "tween", 0.4, 1)}
+        variants={fadeIn('up', 'tween', 0.4, 1)}
         src="/arrow-down.svg"
         alt="arrow-down"
         className="mt-[28px] w-[18px] h-[20px] object-contain cursor-pointer"
